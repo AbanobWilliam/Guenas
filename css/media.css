@@ -1,0 +1,334 @@
+@media (max-width: 575px) {
+
+    section.welcome .arrow-layer,
+    section.advantages img.arrow-layer-up,
+    section.advantages img.arrow-layer-down,
+    section.choose-style img.best-style-arrow,
+    section.choose-style img.green-arrow,
+    section.product-welcome img.arrow-layer,
+    section.contact-welcome img.arrow-layer,
+    section.allows-you img.arrow-layer,
+    section.ask-for-device img.arrow-layer,
+    section.visites img.arrow-layer-top,
+    section.visites img.arrow-layer-bottom {
+        display: none !important;
+    }
+
+    footer img.footer-arrow {
+        width: 100%;
+    }
+
+    footer div.download ul li:first-child {
+        margin-bottom: 20px;
+        margin-right: 0px !important;
+    }
+
+    section.welcome div.info {
+        padding: 20px;
+    }
+
+    footer a.go-to-top {
+        top: -20px;
+    }
+
+    footer img.footer-arrow {
+        transform: translate(-50%, -98%) !important;
+        -webkit-transform: translate(-50%, -98%) !important;
+        -moz-transform: translate(-50%, -98%) !important;
+        -o-transform: translate(-50%, -98%) !important;
+        -ms-transform: translate(-50%, -98%) !important;
+    }
+
+    section.welcome div.info p,
+    section.reduce-cost div.info p,
+    section.advantages p,
+    section.download-app div.info p,
+    section.choose-style div.info p,
+    section.contact div.info ul li,
+    footer a.go-to-top b,
+    section.allows-you div.info p,
+    section.ask-for-device div.info p,
+    section.invites div.info p,
+    section.visites div.info p,
+    section.join-community div.info-content p {
+        font-size: 16px !important;
+    }
+
+    .bg-faded nav .nav-item a,
+    section.welcome div.info a,
+    section.download-app div.info a.g-background,
+    section.choose-style div.info a,
+    section.contact div.contact-form input[type="submit"],
+    section.visites div.info a,
+    section.join-community div.info-content a {
+        padding: 0px !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    section.contact div.contact-form textarea {
+        height: 150px;
+    }
+
+    footer div.social-links ul li {
+        margin-right: 5px !important;
+    }
+
+    footer div.footer-menu ul li {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-toggler {
+        border: 2px solid #f26a93 !important;
+        border-radius: 0px;
+    }
+
+    footer img.footer-arrow {
+        width: 100%;
+    }
+
+    span.fa-bars {
+        font-size: 30px;
+        color: #f26a93;
+    }
+
+    section.reduce-cost div.info p {
+        margin-bottom: 60px;
+    }
+
+    section.advantages {
+        height: 1500px;
+    }
+
+    section.download-app div.info {
+        margin-bottom: 60px;
+    }
+
+    section.choose-style {
+        height: 1000px !important;
+    }
+
+    section.contact div.info {
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+
+    section.allows-you {
+        padding-bottom: 103px;
+    }
+
+    section.allows-you img.arrow-layer,
+    section.ask-for-device img.arrow-layer {
+        bottom: -18px !important;
+    }
+
+    section.visites img.arrow-layer-top {
+        top: -17px !important;
+    }
+
+    section.visites div.info h2 {
+        margin-top: 60px;
+    }
+
+    section.visites img.arrow-layer-bottom {
+        bottom: -24px;
+    }
+    section.contact-info div.social-media{
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .bg-faded nav .nav-item,
+    .bg-faded nav .nav-item:last-child {
+        padding: 0px 5px
+    }
+
+    section.welcome,
+    section.reduce-cost,
+    section.choose-style,
+    section.product-welcome,
+    section.contact-welcome{
+        height: 600px;
+    }
+
+    section.allows-you div.info p {
+        margin-top: 70px;
+    }
+
+    section.allows-you img.arrow-layer,
+    section.ask-for-device img.arrow-layer {
+        bottom: -23px;
+    }
+
+    section.visites img.arrow-layer-top {
+        top: -23px;
+    }
+
+    .bg-faded nav .nav-item a,
+    section.welcome div.info a,
+    section.download-app div.info a.g-background,
+    section.choose-style div.info a,
+    section.contact div.contact-form input[type="submit"],
+    section.visites div.info a,
+    section.join-community div.info-content a {
+        font-size: 18px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    section.welcome div.info p,
+    section.reduce-cost div.info p,
+    section.advantages p,
+    section.download-app div.info p,
+    section.choose-style div.info p,
+    section.contact div.info ul li,
+    footer a.go-to-top b,
+    section.allows-you div.info p,
+    section.ask-for-device div.info p,
+    section.invites div.info p,
+    section.visites div.info p,
+    section.join-community div.info-content p {
+        font-size: 20px;
+    }
+
+    section.visites div.info a {
+        padding: 0px 65px;
+    }
+
+    section.ask-for-device,
+    section.invites {
+        height: 1000px !important;
+    }
+
+    section.join-community div.info-content {
+        height: 530px !important;
+    }
+
+    section.advantages div.advantage {
+        margin-bottom: 60px;
+    }
+
+    section.advantages div.advantage:nth-child(3),
+    section.advantages div.advantage:nth-child(4) {
+        margin-bottom: 0px;
+    }
+
+    section.join-community div.info-content h2,
+    section.join-community div.info-content p,
+    section.ask-for-device div.info h2,
+    section.invites div.info h2,
+    section.visites div.info h2,
+    section.visites div.info p {
+        margin-bottom: 20px;
+    }
+
+    section.invites div.info {
+        margin-top: 30px !important;
+    }
+
+    section.download-app div.info h2,
+    section.choose-style div.info h2,
+    section.contact div.info h2,
+    section.product-welcome p,
+    section.contact-welcome p,
+    section.ask-for-device div.info h2,
+    section.invites div.info h2,
+    section.visites div.info h2,
+    section.join-community div.info-content h2 {
+        font-size: 30px !important;
+    }
+
+    section.download-app div.info,
+    section.ask-for-device div.info,
+    section.invites div.info {
+        margin-top: 0px;
+    }
+
+    section.choose-style div.info {
+        padding-top: 0px;
+    }
+
+    section.contact div.contact-form {
+        padding: 20px !important;
+    }
+
+    section.contact div.contact-form input.input {
+        height: 50px;
+    }
+
+    section.contact div.contact-form textarea {
+        margin-bottom: 20px;
+    }
+
+    section.contact div.contact-form input[type="submit"] {
+        padding: 0px 40px;
+        margin-top: 20px;
+    }
+
+    footer div.footer-menu ul li {
+        width: 120px !important;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+
+    section.visites {
+        height: 1000px !important;
+    }
+    section.contact-info div.email-phone h3,
+    section.contact-info div.social-media h3{
+        font-size: 20px;
+    }
+    section.contact-info div.social-media ul li{
+        margin-right: 7px;
+    }
+    section.contact-info div.email-phone ul li{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1199px) {
+    section.download-app div.info {
+        margin-top: 0px;
+    }
+
+    section.choose-style div.info {
+        padding-top: 60px;
+    }
+
+    section.join-community div.info-content {
+        height: 700px;
+    }
+
+    section.download-app div.info h2,
+    section.choose-style div.info h2,
+    section.contact div.info h2,
+    section.product-welcome p,
+    section.contact-welcome p,
+    section.ask-for-device div.info h2,
+    section.invites div.info h2,
+    section.visites div.info h2,
+    section.join-community div.info-content h2 {
+        font-size: 40px;
+    }
+
+    footer div.footer-menu ul li {
+        width: 175px;
+    }
+
+    footer img.footer-arrow {
+        transform: translate(-50%, -99%);
+        -webkit-transform: translate(-50%, -99%);
+        -moz-transform: translate(-50%, -99%);
+        -o-transform: translate(-50%, -99%);
+        -ms-transform: translate(-50%, -99%);
+    }
+
+}
+
+@media (min-width: 1200px) {}
